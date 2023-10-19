@@ -11,8 +11,8 @@ public class GetTextForAssertions extends PageComponent {
 //                e.printStackTrace();
 //            }
         WebElementFacade userTitle = $("//div[@class='ah-header-account-info-username']");
-        userTitle.shouldBeVisible();
-//        userTitle.waitUntilVisible();
+//        userTitle.shouldBeVisible();
+        userTitle.waitUntilVisible();
         return userTitle.getText();
     }
     public String ztaUserName () {
