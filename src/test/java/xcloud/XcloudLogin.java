@@ -14,7 +14,6 @@ public class XcloudLogin {
     NavigateActions navigate;
     LoginAction login;
     GetTextForAssertions getText;
-
     @Test
     void successfulLogin() throws IOException {
         navigate.tmeExtremeCloudLoginPage();
