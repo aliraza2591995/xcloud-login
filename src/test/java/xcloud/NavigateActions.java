@@ -33,19 +33,4 @@ public class NavigateActions extends UIInteractions {
         String ztaUrl = ztaPrefix + baseUrl + "/zta";
         openUrl(ztaUrl);
     }
-
-//    @Step("Navigate to the tme login page")
-//    public void tmeExtremeCloudLoginPage() {
-//        String base = ConfiguredEnvironment.getEnvironmentVariables().getProperty("webdriver.base.url");
-//        String prefix = ConfiguredEnvironment.getEnvironmentVariables().getProperty("environment.prefix.tme");
-//        openUrl(prefix + base + "/login");
-////        openUrl("https://tme.qa.xcloudiq.com/login");
-//    }
-//    @Step("After login to tme, navigate to the zta page")
-//    public void ztaExtremeCloudPage() {
-//        String base = ConfiguredEnvironment.getEnvironmentVariables().getProperty("webdriver.base.url");
-//        String prefix = ConfiguredEnvironment.getEnvironmentVariables().getProperty("environment.prefix.zta");
-//        openUrl(prefix + base + "/zta");
-////        openUrl("https://zta-tme.qa.xcloudiq.com/zta");
-//    }
 }
